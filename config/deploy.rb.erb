@@ -1,0 +1,12 @@
+# IP/Hostname of the target machine
+role :app, '<%= ip %>'
+
+# All machines should have deploy user
+<% if user %>
+set :user, '<%= user %>'
+<% end %>
+<% if password %>
+set :password, '<%= password %>'
+<% end %>
+
+default_run_options[:pty] = true

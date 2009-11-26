@@ -1,0 +1,2 @@
+#!/bin/sh
+sprinkle -c -s chef-server.rb $1 $2 $3

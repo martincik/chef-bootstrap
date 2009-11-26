@@ -1,0 +1,10 @@
+server:
+  host: chef.server.local
+  ip: 192.168.0.1
+  user: deploy
+  password: deploy
+
+client:
+  ip: 192.168.0.2
+  user: deploy
+  password: deploy

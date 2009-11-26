@@ -1,0 +1,7 @@
+{
+"chef": {
+    "server_fqdn": "chef.server.local",
+    "server_ssl_req": "/C=ES/ST=Espanol/L=Barcelona/O=Company/OU=IT/CN=chef.server.local/emailAddress=you@gmail.com"
+  },
+"recipes": "chef::server"
+}
